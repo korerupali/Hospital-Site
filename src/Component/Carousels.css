@@ -1,0 +1,20 @@
+
+.carousel-item img {
+    height: 570px;
+}
+.carousel-caption {
+    padding: 7px;
+  }
+  /* .carousel-caption p {
+    margin: 0;
+  } */
+  /* .carousel-caption h3 {
+    margin: 0;
+  } */
+
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 330px; 
+    }
+}

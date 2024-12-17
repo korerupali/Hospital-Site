@@ -1,0 +1,92 @@
+/* Footer.css */
+
+.footer{
+    padding: 20px;
+    margin-top: 30px;
+   
+}
+
+.footer-div {
+    margin-bottom: 1.5rem;
+}
+
+
+.footer-div h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+
+.footer-div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer-div ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+    transition: color 0.3s;
+  
+}
+.cursor ul li :hover, .cursor a:hover{
+    cursor: pointer;
+    color: #007bff;
+}
+
+.footer-div a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+/* .footer-div ul li:hover, .footer-div a:hover {
+    color: #007bff;
+} */
+
+
+.footer-div ul li .svg-inline--fa {
+    margin-right: 0.5rem;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.footer-div ul li:hover .svg-inline--fa {
+    color: #0056b3;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-div {
+        text-align: center;
+    }
+
+    .footer-div ul li {
+        display:block;
+        margin: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-div h4 {
+        font-size: 1.2rem;
+    }
+
+    .footer-div ul li {
+        font-size: 0.9rem;
+       
+    }
+}

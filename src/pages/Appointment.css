@@ -1,0 +1,100 @@
+
+.appointment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+.form-control {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Form Row */
+.row {
+  margin-bottom: 5px;
+}
+
+
+/* Buttons */
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 250px;
+  display: block;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* Responsive Design */
+@media (max-width: 767px) {
+ 
+/* Speciality and Doctor Dropdown */
+select.form-select {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+textarea.form-control {
+  resize: none;
+  height: 120px;
+}}
+
+
+@media (max-width: 576px) {
+  .appointment-container {
+    padding: 15px;
+  }
+
+  .modules {
+    font-size: 1.5rem;
+  }
+
+  .appointment-form {
+    display: block;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+  
