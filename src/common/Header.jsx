@@ -17,8 +17,9 @@ export default function Header() {
                         <li><Link to={'/'}>Home</Link></li>
                         <li><Link to={'/about-us'}>About</Link></li>
                         <li><Link to={'/doctor'}>Doctors</Link></li>
+                         <li><Link to={'/appointment'} target="_blank"  rel="noopener noreferrer">Appointment</Link></li>
                         <li><Link to={'/contact-us'}>Contact Us</Link></li>
-                        <li><Link to={'/appointment'} target="_blank"  rel="noopener noreferrer">Appointment</Link></li>
+                       
                     </ul>
 
                     <button
